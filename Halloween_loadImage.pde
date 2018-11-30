@@ -9,7 +9,7 @@ void setup() {
 
 void draw() {
 
-  imgp=loadImage("thank-you/vap_1394528093.jpg");
+  imgp=loadImage("vap_1394528093.jpg");
   image(imgp, 0, 0, 900, 700);
   
   fill(216, 128, 28, ball);
