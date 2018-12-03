@@ -45,12 +45,3 @@ void draw() {
   
 }
 
-  
-void mousePressed(){
-  if (ball == 255)
-  {
-    ball = 0;
-  } else {
-    ball = 255;
-  }
-}
