@@ -18,10 +18,11 @@ void draw() {
   fill(216, 128, 28, ball);
   ellipse(mouseX, mouseY, 50, 50);
   
+  textSize(100);
   text("BALL IS LIFE",600,650);
   fill(0);
   textAlign(CENTER);
-  textSize(100);
+  
   
 
   heartX = heartX+speed;
